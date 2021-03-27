@@ -2,9 +2,10 @@ from character import Character
 import random
 
 def main():
+    name = input("Choose your name: ")
+    difficulty = input("Choose difficulty (easy/normal/hard)")
     boss = Character(name='Boss', hp=100, ability_power=10, dodge=0.15)
     protagonist = Character(name='You', hp=100, ability_power=10, dodge=0.15)
-    
     while True:
         ability = random.uniform(0, 1)
         if ability > 0.5:
