@@ -22,4 +22,4 @@ class Character:
 
     
     def take_damage(self, damage):
-            print(f'{self._name} took {damage} damage!')
+        print(f'{self._name} took {damage} damage!')
