@@ -4,7 +4,7 @@ import random
 
 def main():
     boss = Character(name='Boss', hp=100, ability_power=10, dodge=0.15)
-    protagonist = Character(name='You', hp=100, ability_power=10, dodge=0.15)
+    protagonist = Character(name='Arthur', hp=100, ability_power=10, dodge=0.15)
     
     while True:
         ability = random.uniform(0, 1)
